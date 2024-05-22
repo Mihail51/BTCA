@@ -12,10 +12,14 @@ const devServer = (isDev) => !isDev ? {} : {
 
 module.exports = ({develop}) => ({
   mode: develop ? 'development' : 'production',
-  entry: './src/index.js',
+  entry: {
+    main: './src/index.js',
+    var: './src/styles/var.scss',
+    stylesheet: './src/styles/stylesheet.css'
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
+    filename: '[name].bundle.js',
     clean: true,
   },
   plugins: [
@@ -23,15 +27,9 @@ module.exports = ({develop}) => ({
         template: './src/index.html'
     }),
     new MiniCssExtractPlugin({
-        filename: './styles/main.css'
-    }),
-    new MiniCssExtractPlugin({
-        filename: './styles/var.css'
-    }),
-    new MiniCssExtractPlugin({
-        filename: './styles/stylesheet.css'
+        filename: 'styles/[name].css'
     })
-  ],
+ ],
   module: {
     rules: [
         {
@@ -52,7 +50,7 @@ module.exports = ({develop}) => ({
         {
             test: /\.css$/i,
             use: [
-                MiniCssExtractPlugin.loader, 'css-losder'
+                MiniCssExtractPlugin.loader, 'css-loader'
             ]
         },
         {

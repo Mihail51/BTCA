@@ -1,10 +1,88 @@
 @import './var.scss';
 @import './stylesheet.css';
-$bg: #ff0;
 
-body {
-    background: $orange;
+.wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-h1 {
-    font-family: $font4;
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+}
+html {
+    font-size: 10px;
+}
+.page {
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    font-family: $font-family;
+    font-weight: 400;
+}   
+.header {
+    width: 100%;
+    &__container {
+        max-width: 1115px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    &__wrap {
+        min-height: 68px;
+    }
+    &__logo {
+        width: 42px;
+        height: 42px;
+        
+        &__link {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            border-radius: 100%;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            -ms-border-radius: 100%;
+            -o-border-radius: 100%;
+            background-image: url(../images/main-logo-ellips.svg);
+            border-color: transparent;
+        /*    border: 1.53px solid $blue-opacity-15;  */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &::after {
+                content: "";
+                position: absolute;
+                width: 15.74px;
+                height: 21.71px;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                -webkit-transform: translate(-50%, -50%);
+                -moz-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                -o-transform: translate(-50%, -50%);
+                background-image: url(../images/main-logo-bg.svg);
+            }
+        }
+    }
+    &__menu {
+        width: 568px;
+        height: 19px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        &__item a {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: $white-white-40;
+            text-decoration: none;
+            &:hover {
+                color: $white---white;
+            }
+        }
+    }
 }
