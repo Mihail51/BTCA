@@ -34,7 +34,7 @@ module.exports = ({develop}) => ({
     rules: [
         {
             test: /\.(?:ico|png|jpg|jpeg|svg)$/i,
-            type: 'asset/inline'                  
+            type: 'asset/inline'
         },
         {
             test: /\.(woff|woff2|ttf|otf|eot)$/,
