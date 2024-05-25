@@ -38,10 +38,7 @@ module.exports = ({develop}) => ({
         },
         {
             test: /\.(woff|woff2|ttf|otf|eot)$/,
-            type: 'asset/resource',
-            generator: {
-            filename: 'assets/fonts/[name][ext]'
-            } 
+            type: 'asset/inline',
         },
         {
             test: /\.html$/i,

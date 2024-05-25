@@ -347,6 +347,7 @@ html {
                     font-size: 1.6rem;
                     font-weight: 700;
                     color: $white---white;
+                    text-decoration: none;
                 }
                 &__image {
                     position: absolute;
@@ -356,12 +357,50 @@ html {
             }
         }
         & .swiper__buttons {
+            position: relative;
             width: 140px;
             height: 60px;
-            margin: 0 auto;
+            margin: 0 auto 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            & .swiper-button-prev, & .swiper-button-next {
+                position: relative;
+                width: 60px;
+                height: 60px;
+                border-radius: 100%;
+                -webkit-border-radius: 100%;
+                -moz-border-radius: 100%;
+                -ms-border-radius: 100%;
+                -o-border-radius: 100%;
+                border: 1px solid $white-white-10;
+                background: $dark---bg;
+            }
+            & .swiper-button-prev::after, & .swiper-button-next::after {
+                content: "";
+                position: absolute;
+                width: 24px;
+                height: 24px;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                -webkit-transform: translate(-50%, -50%);
+                -moz-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                -o-transform: translate(-50%, -50%);
+                font-size: 0;
+                background-image: url(../images/arrow-right.svg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+}
+            & .swiper-button-prev::after {
+                transform: translate(-50%, -50%) scaleX(-1);
+                -webkit-transform: translate(-50%, -50%) scaleX(-1);
+                -moz-transform: translate(-50%, -50%) scaleX(-1);
+                -ms-transform: translate(-50%, -50%) scaleX(-1);
+                -o-transform: translate(-50%, -50%) scaleX(-1);
+}
         }
     }
 }
