@@ -1,0 +1,41 @@
+
+:root {
+    --minmob: 320px:
+    --mob_360: 360px:
+    --mob_400: 400px:
+    --mob_500: 500px:
+    --mob_sm: 576px:
+    --tab_md: 768px:
+    --desk_lg: 992px:
+    --desk_xl: 1200px:
+    --desk_xxl: 1400px:
+
+	--accent: #ff9c27:
+	--green-|-new: #1aa752:
+	--purple: #7a1aa7:
+	--red: #ce1a1a:
+	--orange: #ffad72:
+	--accent1: #1d9a6d:
+	--white---white: #fff:
+	--white-white-40: rgba(255, 255, 255, 0.42):
+	--white-white-15: rgba(255, 255, 255, 0.15):
+	--white-white-10: rgba(255, 255, 255, 0.1):
+	---gradients---2: #c4c4c4:
+	--blue---second: #8886ff:
+	--blue-opacity-15: rgba(98, 127, 227, 0.15):
+	--dark---blue: #1a204a:
+	--dark-input: #151822:
+	--dark---bg: #0d111b:
+	--grey---text: #adadad:
+	--grey---icon: #636d85:
+	--green---second: #279d88:
+
+    --font-family: "Hauora", sans-serif:
+    --second-family: "Inter", sans-serif:
+    --third-family: "Montserrat", sans-serif:
+    --font3: "Poppins", sans-serif:
+    --font4: "Golos", sans-serif:
+    --font5: "Roboto", sans-serif:
+    --font6: "ABeeZee", sans-serif:
+    --font7: "SF Compact Display", sans-serif:
+}

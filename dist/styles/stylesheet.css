@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'Hauora';
+    src: url('../fonts/Hauora-ExtraBold.eot');
+    src: url('../fonts/Hauora-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Hauora-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Hauora-ExtraBold.woff') format('woff'),
+        url('../fonts/Hauora-ExtraBold.ttf') format('truetype'),
+        url('../fonts/Hauora-ExtraBold.svg#Hauora-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/../fonts/Montserrat-SemiBold.eot');
+    src: url('../fonts/../fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('../fonts/../fonts/Montserrat-SemiBold.woff') format('woff'),
+        url('../fonts/../fonts/Montserrat-SemiBold.ttf') format('truetype'),
+        url('../fonts/../fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hauora';
+    src: url('../fonts/Hauora-Bold.eot');
+    src: url('../fonts/Hauora-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Hauora-Bold.woff2') format('woff2'),
+        url('../fonts/Hauora-Bold.woff') format('woff'),
+        url('../fonts/Hauora-Bold.ttf') format('truetype'),
+        url('../fonts/Hauora-Bold.svg#Hauora-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hauora';
+    src: url('../fonts/Hauora-Light.eot');
+    src: url('../fonts/Hauora-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Hauora-Light.woff2') format('woff2'),
+        url('../fonts/Hauora-Light.woff') format('woff'),
+        url('../fonts/Hauora-Light.ttf') format('truetype'),
+        url('../fonts/Hauora-Light.svg#Hauora-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-ExtraBold.eot');
+    src: url('../fonts/Inter-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Inter-ExtraBold.woff') format('woff'),
+        url('../fonts/Inter-ExtraBold.ttf') format('truetype'),
+        url('../fonts/Inter-ExtraBold.svg#Inter-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hauora';
+    src: url('../fonts/Hauora-Regular.eot');
+    src: url('../fonts/Hauora-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Hauora-Regular.woff2') format('woff2'),
+        url('../fonts/Hauora-Regular.woff') format('woff'),
+        url('../fonts/Hauora-Regular.ttf') format('truetype'),
+        url('../fonts/Hauora-Regular.svg#Hauora-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golos';
+    src: url('../fonts/GolosText-Bold.eot');
+    src: url('../fonts/GolosText-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GolosText-Bold.woff2') format('woff2'),
+        url('../fonts/GolosText-Bold.woff') format('woff'),
+        url('../fonts/GolosText-Bold.ttf') format('truetype'),
+        url('../fonts/GolosText-Bold.svg#GolosText-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Bold.eot');
+    src: url('../fonts/Inter-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-Bold.woff2') format('woff2'),
+        url('../fonts/Inter-Bold.woff') format('woff'),
+        url('../fonts/Inter-Bold.ttf') format('truetype'),
+        url('../fonts/Inter-Bold.svg#Inter-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.eot');
+    src: url('../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('../fonts/Montserrat-Medium.woff') format('woff'),
+        url('../fonts/Montserrat-Medium.ttf') format('truetype'),
+        url('../fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hauora';
+    src: url('../fonts/Hauora-ExtraLight.eot');
+    src: url('../fonts/Hauora-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Hauora-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Hauora-ExtraLight.woff') format('woff'),
+        url('../fonts/Hauora-ExtraLight.ttf') format('truetype'),
+        url('../fonts/Hauora-ExtraLight.svg#Hauora-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hauora';
+    src: url('../fonts/Hauora-Medium.eot');
+    src: url('../fonts/Hauora-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Hauora-Medium.woff2') format('woff2'),
+        url('../fonts/Hauora-Medium.woff') format('woff'),
+        url('../fonts/Hauora-Medium.ttf') format('truetype'),
+        url('../fonts/Hauora-Medium.svg#Hauora-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ABeeZee';
+    src: url('../fonts/ABeeZee-Regular.eot');
+    src: url('../fonts/ABeeZee-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ABeeZee-Regular.woff2') format('woff2'),
+        url('../fonts/ABeeZee-Regular.woff') format('woff'),
+        url('../fonts/ABeeZee-Regular.ttf') format('truetype'),
+        url('../fonts/ABeeZee-Regular.svg#ABeeZee-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.eot');
+    src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff'),
+        url('../fonts/Montserrat-Regular.ttf') format('truetype'),
+        url('../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hauora';
+    src: url('../fonts/Hauora-SemiBold.eot');
+    src: url('../fonts/Hauora-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Hauora-SemiBold.woff2') format('woff2'),
+        url('../fonts/Hauora-SemiBold.woff') format('woff'),
+        url('../fonts/Hauora-SemiBold.ttf') format('truetype'),
+        url('../fonts/Hauora-SemiBold.svg#Hauora-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.eot');
+    src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff'),
+        url('../fonts/Roboto-Regular.ttf') format('truetype'),
+        url('../fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.eot');
+    src: url('../fonts/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-Bold.woff2') format('woff2'),
+        url('../fonts/Poppins-Bold.woff') format('woff'),
+        url('../fonts/Poppins-Bold.ttf') format('truetype'),
+        url('../fonts/Poppins-Bold.svg#Poppins-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Compact Display';
+    src: url('../fonts/SFCompactDisplay-Semibold.eot');
+    src: url('../fonts/SFCompactDisplay-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SFCompactDisplay-Semibold.woff2') format('woff2'),
+        url('../fonts/SFCompactDisplay-Semibold.woff') format('woff'),
+        url('../fonts/SFCompactDisplay-Semibold.ttf') format('truetype'),
+        url('../fonts/SFCompactDisplay-Semibold.svg#SFCompactDisplay-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.eot');
+    src: url('../fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/Poppins-Regular.woff') format('woff'),
+        url('../fonts/Poppins-Regular.ttf') format('truetype'),
+        url('../fonts/Poppins-Regular.svg#Poppins-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.eot');
+    src: url('../fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/Poppins-Medium.woff') format('woff'),
+        url('../fonts/Poppins-Medium.ttf') format('truetype'),
+        url('../fonts/Poppins-Medium.svg#Poppins-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.eot');
+    src: url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto-Medium.woff') format('woff'),
+        url('../fonts/Roboto-Medium.ttf') format('truetype'),
+        url('../fonts/Roboto-Medium.svg#Roboto-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,37 @@
+
+.page {
+  max-width: 1440px;
+  height: auto;
+  margin: 0 auto;
+  font-family: var(--font-family);
+  font-weight: 400;
+}
+.wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1130px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+}
+html {
+    font-size: 10px;
+}
+
+
+.home__page {
+  position: relative;
+  background: var(--dark---bg);
+}
