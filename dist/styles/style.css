@@ -1,5 +1,7 @@
-@import "./fonts.css";
-@import "./var.css";
+@import url('var.css');
+@import url('header.css');
+@import url('main.css');
+
 
 
 .page {
