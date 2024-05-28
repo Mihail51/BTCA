@@ -1,0 +1,36 @@
+
+.home__page {
+  position: relative;
+  background: var(--dark---bg);
+}
+.webp .home__page__main {
+    width: 100%;
+    height: 1240px;
+    background: linear-gradient(359deg, #0c111c 0%, rgba(13, 25, 27, 0.4) 100%), url("../images/main-bg-image.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+.no-webp .home__page__main {
+    background: linear-gradient(359deg, #0c111c 0%, rgba(13, 25, 27, 0.4) 100%), url("../images/main-bg-image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+.webp .home__page__gradient {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../images/main-bg-image-earth.webp);
+    background-repeat: no-repeat;
+    background-size: 749px 900px;
+    background-position: top right;
+}
+.no-webp .home__page__gradient {
+    background-image: url(../images/main-bg-image-earth.png);
+    background-repeat: no-repeat;
+    background-size: 749px 900px;
+    background-position: top right;
+}
