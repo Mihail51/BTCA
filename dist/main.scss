@@ -165,7 +165,6 @@ html {
         gap: 40px;
     }
     &__menu {
-/*        width: 568px;  */
         height: 19px;
         display: flex;
         justify-content: space-between;
@@ -229,7 +228,7 @@ html {
                 -moz-transform: translateY(-50%);
                 -ms-transform: translateY(-50%);
                 -o-transform: translateY(-50%);
-}
+            }
         }
         &_2 {
             width: 106px;
