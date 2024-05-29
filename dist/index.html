@@ -31,8 +31,25 @@
                     </ul>
                 </nav>
                 <div class="buttons header__buttons">
-                    <div class="button header__button header__button_1">RUS</div>
-                    <div class="button header__button header__button_2">10.834</div>
+                    <div id="language-dropdown" class="button header__button header__button_1">
+                        <img width="17" height="18" id="selected-flag" src="./images/ic_baseline-language.svg" alt="Flag">
+                        <span id="selected-language"></span>
+                        <div class="dropdown-content">
+                            <!-- Добавьте сюда другие языки -->
+                            <div data-language="Eng" data-flag="./images/ic_baseline-language.svg">Eng</div>
+                            <div data-language="Рус" data-flag="./images/ic_baseline-language.svg">Рус</div>
+                            <div data-language="USA" data-flag="./images/ic_baseline-language.svg">USA</div>
+                            <!-- ... -->
+                        </div>
+                    </div>
+                    <div id="crypto-price" class="button header__button header__button_2">
+                        <div class="currency-icon header__currency-icon">
+                            <img id="currency-symbol" src="./images/icon-dollar-vector.svg" alt="Currency Symbol">
+                        </div>
+                        <span id="crypto-value">10.834</span>
+                    </div>
+ <!--                   <div class="button header__button header__button_1">RUS</div>  -->
+ <!--                   <div class="button header__button header__button_2">10.834</div>   -->
                 </div>
             </div>
         </div>
@@ -261,6 +278,9 @@
     <!--FOR SLIDER-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/slider.js"></script>
+
+    <!--FOR LANGUAGE-->
+    <script src="./js/language.js"></script>
 
     <!--FOR WEBP-->
     <script src="../dist/js/modernizr-custom.min.js"></script>
