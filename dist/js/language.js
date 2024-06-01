@@ -27,7 +27,7 @@ document.getElementById('language-dropdown').addEventListener('click', function(
 //  JavaScript для изменения стоимости крипты в соответствии с выбранным языком
 function updateCryptoPrice(language) {
   var cryptoPrices = {
-    "Eng": 3.340,
+    "Eng": 3.345,
     "Рус": 10.451,
     "USA": 10.834 
     // Добавьте другие значения для каждого языка

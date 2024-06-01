@@ -1,6 +1,7 @@
 @import url('var.css');
 @import url('header.css');
 @import url('main.css');
+@import url('parters.css');
 
 
 
@@ -15,7 +16,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+/*    align-items: center;   */
     box-sizing: border-box;
 }
 .container {

@@ -51,11 +51,11 @@ only screen and (min-resolution: 144dpi) {
 
 .home__page__main {
     width: 100%;
-    height: 1240px;
+    min-height: 1240px;
     background: linear-gradient(359deg, #0c111c 0%, rgba(13, 25, 27, 0.4) 100%), url("../images/main-bg-image.webp");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center center;
+    background-position: top center;
 }
 @media  only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min--moz-device-pixel-ratio: 1.5),
@@ -66,14 +66,14 @@ only screen and (min-resolution: 144dpi) {
         background: linear-gradient(359deg, #0c111c 0%, rgba(13, 25, 27, 0.4) 100%), url("../images/main-bg-image@2.webp");
         background-repeat: no-repeat;
         background-size: contain;
-        background-position: center center;
+        background-position: top center;
     }
 }
 .no-webp .home__page__main {
     background: linear-gradient(359deg, #0c111c 0%, rgba(13, 25, 27, 0.4) 100%), url("../images/main-bg-image.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center center;
+    background-position: top center;
 }
 @media  only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min--moz-device-pixel-ratio: 1.5),
@@ -84,7 +84,7 @@ only screen and (min-resolution: 144dpi) {
         background: linear-gradient(359deg, #0c111c 0%, rgba(13, 25, 27, 0.4) 100%), url("../images/main-bg-image@2.png");
         background-repeat: no-repeat;
         background-size: contain;
-        background-position: center center;
+        background-position: top center;
     }
 }
 .home__page__main__wrap {
@@ -135,6 +135,7 @@ only screen and (min-resolution: 144dpi) {
 /* SWIPER SLIDER */
 .main__slider{
     width: 100%;
+    margin-top: 105px;
 }
 .main__slider .swiper-wrapper {
     height: 517px;
@@ -242,7 +243,7 @@ only screen and (min-resolution: 144dpi) {
     margin: 0 auto 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
 }
 .main__slider .swiper-button-prev, .main__slider .swiper-button-next {
     position: relative;
