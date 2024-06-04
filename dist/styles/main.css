@@ -50,12 +50,14 @@ only screen and (min-resolution: 144dpi) {
 }
 
 .home__page__main {
+    position: relative;
     width: 100%;
     min-height: 1240px;
     background: linear-gradient(359deg, #0c111c 0%, rgba(13, 25, 27, 0.4) 100%), url("../images/main-bg-image.webp");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top center;
+    z-index: 0;
 }
 @media  only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min--moz-device-pixel-ratio: 1.5),

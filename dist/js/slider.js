@@ -14,7 +14,7 @@
 
     function getDirection() {
       var windowWidth = window.innerWidth;
-      var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+      var direction = window.innerWidth <= 768 ? 'vertical' : 'horizontal';
 
       return direction;
     }
