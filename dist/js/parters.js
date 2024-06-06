@@ -1,3 +1,4 @@
+
 function placeItemsOnCircle(containerSelector, itemSelector, radiusVar) {
     const container = document.querySelector(containerSelector);
     const items = container.querySelectorAll(itemSelector);
@@ -18,9 +19,6 @@ function placeItemsOnCircle(containerSelector, itemSelector, radiusVar) {
 
 // Вызов функции для расположения элементов на окружности
 placeItemsOnCircle('.scroll__items', '.item', '--radius');
-
-
-
 
 
 
