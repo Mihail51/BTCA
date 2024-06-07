@@ -4,6 +4,10 @@
     .container {
         max-width: 960px;
     }
+    .background-text {
+        width: auto;
+        font-size: 172px;
+    }
     .parters__scroll {
         flex-basis: 429px;
         right: -37px;
@@ -111,7 +115,7 @@
     }
     .background-text {
         width: auto;
-        font-size: 145px;
+        font-size: 130px;
         left: -15px;
     }
     .parters__content {
@@ -338,7 +342,7 @@
         align-items: center;
     }
     .background-text {
-        font-size: 130px;
+        font-size: 100px;
         top: 0;
         left: -15px;
     }
