@@ -2,6 +2,7 @@
 @import url('header.css');
 @import url('main.css');
 @import url('parters.css');
+@import url('application.css');
 
 
 
@@ -16,7 +17,6 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-/*    align-items: center;   */
     box-sizing: border-box;
 }
 .container {
