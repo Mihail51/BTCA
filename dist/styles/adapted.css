@@ -274,7 +274,14 @@
         width: 600px;
     }
     /* FOOTER  */
-    
+    .footer__wrap {
+        height: auto;
+        min-height: 416px;
+    }
+    .footer__list {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 }
 @media screen and (max-width: 992px) and (min-width: 769px) {
     .ready__steps {
@@ -543,6 +550,9 @@
     /* READY  */
     .home__page__ready__wrap {
         height: 1390px;
+    }
+    .ready__background-text {
+        left: 50%;
     }
     .ready__steps {
         width: 100%;
