@@ -13,81 +13,34 @@
     top: 0;
     right: 0;
     bottom: 0;
-    background-image: url(../images/main-bg-image-earth.webp);
+    background-image: image-set("../images/main-bg-image-earth.webp" 1x, "../images/main-bg-image-earth@2.webp" 2x, "../images/main-bg-image-earth@3.webp" 3x);
     background-repeat: no-repeat;
     background-size: 749px 900px;
     background-position: top right; 
 }
-@media  only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min-resolution: 1.5dppx),
-only screen and (min-resolution: 144dpi) {
-    .home__page__gradient {
-       background-image: url(../images/main-bg-image-earth@2.webp);
-        background-repeat: no-repeat;
-        background-size: 749px 900px;
-        background-position: top right; 
-    }
-}
 .no-webp .home__page__gradient {
-    background-image: url(../images/main-bg-image-earth.png);
+    background-image: image-set("../images/main-bg-image-earth.png" 1x, "../images/main-bg-image-earth@2.png" 2x, "../images/main-bg-image-earth@3.png ");
     background-repeat: no-repeat;
     background-size: 749px 900px;
     background-position: top right;
 } 
-@media  only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min-resolution: 1.5dppx),
-only screen and (min-resolution: 144dpi) {
-    .no-webp .home__page__gradient {
-        background-image: url(../images/main-bg-image-earth@2.png);
-        background-repeat: no-repeat;
-        background-size: 749px 900px;
-        background-position: top right;
-    }
-}
+
 
 .home__page__main {
     position: relative;
     width: 100%;
     min-height: 1240px;
-    background: linear-gradient(359deg, #0c111c 0%, rgba(13, 25, 27, 0.4) 100%), url("../images/main-bg-image.webp");
+    background: linear-gradient(359deg, #0c111c 0%, rgba(13, 25, 27, 0.4) 100%), image-set("../images/main-bg-image.webp" 1x, "../images/main-bg-image@2.webp" 2x, "../images/main-bg-image@3.webp 3x");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top center;
     z-index: 0;
 }
-@media  only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min-resolution: 1.5dppx),
-only screen and (min-resolution: 144dpi) {
-    .home__page__main {
-        background: linear-gradient(359deg, #0c111c 0%, rgba(13, 25, 27, 0.4) 100%), url("../images/main-bg-image@2.webp");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: top center;
-    }
-}
 .no-webp .home__page__main {
-    background: linear-gradient(359deg, #0c111c 0%, rgba(13, 25, 27, 0.4) 100%), url("../images/main-bg-image.png");
+    background: linear-gradient(359deg, #0c111c 0%, rgba(13, 25, 27, 0.4) 100%), image-set("../images/main-bg-image.png" 1x, "../images/main-bg-image@2.png" 2x, "../images/main-bg-image@3.png" 3x) url("../images/main-bg-image.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top center;
-}
-@media  only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min-resolution: 1.5dppx),
-only screen and (min-resolution: 144dpi) {
-    .no-webp .home__page__main {
-        background: linear-gradient(359deg, #0c111c 0%, rgba(13, 25, 27, 0.4) 100%), url("../images/main-bg-image@2.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: top center;
-    }
 }
 .home__page__main__wrap {
     min-height: 1249px;
@@ -233,10 +186,59 @@ only screen and (min-resolution: 144dpi) {
     color: var(--white---white);
     text-decoration: none;
 }
-.main__slider .swiper-wrapper .swiper-slide__image {
+.main__slider .swiper-wrapper .swiper-slide .swiper-slide__image {
     position: absolute;
     right: 0;
     bottom: 0;
+    mix-blend-mode: lighten;
+}
+.main__slider .swiper-wrapper .swiper-slide:nth-child(3n+1) .swiper-slide__image {
+    width: 215px;
+    height: 216px;
+    background: linear-gradient(180deg, #151822 0%, rgba(21, 24, 34, 0) 100%), linear-gradient(93deg, #151822 0%, rgba(21, 24, 34, 0) 100%), image-set("../images/card-l-bg.webp" 1x, "../images/card-l-bg@2.webp" 2x, "../images/card-l-bg@3.webp" 3x);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+.no-webp .main__slider .swiper-wrapper .swiper-slide:nth-child(3n+1) .swiper-slide__image {
+    width: 215px;
+    height: 216px;
+    background: linear-gradient(180deg, #151822 0%, rgba(21, 24, 34, 0) 100%), linear-gradient(93deg, #151822 0%, rgba(21, 24, 34, 0) 100%), image-set("../images/card-l-bg.png" 1x, "../images/card-l-bg@2.png" 2x, "../images/card-l-bg@3.png" 3x);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+.main__slider .swiper-wrapper .swiper-slide:nth-child(3n+2) .swiper-slide__image {
+    width: 242px;
+    height: 216px;
+    background: linear-gradient(180deg, #151822 0%, rgba(21, 24, 34, 0) 100%), linear-gradient(93deg, #151822 0%, rgba(21, 24, 34, 0) 100%), image-set("../images/card-c-bg.webp" 1x, "../images/card-c-bg@2.webp" 2x, "../images/card-c-bg@3.webp" 3x);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+.no-webp .main__slider .swiper-wrapper .swiper-slide:nth-child(3n+2) .swiper-slide__image {
+    width: 242px;
+    height: 216px;
+    background: linear-gradient(180deg, #151822 0%, rgba(21, 24, 34, 0) 100%), linear-gradient(93deg, #151822 0%, rgba(21, 24, 34, 0) 100%), image-set("../images/card-c-bg.png" 1x, "../images/card-c-bg@2.png" 2x, "../images/card-c-bg@3.png" 3x);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+.main__slider .swiper-wrapper .swiper-slide:nth-child(3n) .swiper-slide__image {
+    width: 285px;
+    height: 160px;
+    background: linear-gradient(180deg, #151822 0%, rgba(21, 24, 34, 0) 100%), linear-gradient(93deg, #151822 0%, rgba(21, 24, 34, 0) 100%), image-set("../images/card-r-bg.webp" 1x, "../images/card-r-bg@2.webp" 2x, "../images/card-r-bg@3.webp" 3x);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+.no-webp .main__slider .swiper-wrapper .swiper-slide:nth-child(3n) .swiper-slide__image {
+    width: 285px;
+    height: 160px;
+    background: linear-gradient(180deg, #151822 0%, rgba(21, 24, 34, 0) 100%), linear-gradient(93deg, #151822 0%, rgba(21, 24, 34, 0) 100%), image-set("../images/card-r-bg.png" 1x, "../images/card-r-bg@2.png" 2x, "../images/card-r-bg@3.png" 3x);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
 }
 .main__slider .swiper__buttons {
     position: relative;

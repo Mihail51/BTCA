@@ -8,42 +8,17 @@
     top: 0;
     right: 0;
     height: 612px;
-    background-color: linear-gradient(180deg, #0c111c 0%, rgba(13, 25, 27, 0.4) 100%), url(../images/application-bg.webp);
-    background-image: image-set("../images/application-bg.webp" 1x, "../images/application-bg@2.webp" 2x);
+    background: linear-gradient(180deg, #0c111c 0%, rgba(13, 25, 27, 0.4) 100%), image-set("../images/application-bg.webp" 1x, "../images/application-bg@2.webp" 2x, "../images/application-bg@3.webp" 3x);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-}
-@media  only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min-resolution: 1.5dppx),
-only screen and (min-resolution: 144dpi) {
-    .home__page__application__bg {
-       background: linear-gradient(180deg, #0c111c 0%, rgba(13, 25, 27, 0.4) 100%), url(../images/application-bg@2.webp);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: top center; 
-    }
-}
+}  
 .no-webp .home__page__application__bg {
-    background: linear-gradient(180deg, #0c111c 0%, rgba(13, 25, 27, 0.4) 100%), url(../images/application-bg.png);
+    background: linear-gradient(180deg, #0c111c 0%, rgba(13, 25, 27, 0.4) 100%), image-set("../images/application-bg.png" 1x, "../images/application-bg@2.png" 2x, "../images/application-bg@3.png" 3x);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
 } 
-@media  only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min-resolution: 1.5dppx),
-only screen and (min-resolution: 144dpi) {
-    .no-webp .home__page__application__bg {
-        background: linear-gradient(180deg, #0c111c 0%, rgba(13, 25, 27, 0.4) 100%), url(../images/application-bg@2.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: top center;
-    }
-}
 .home__page__application__wrap {
     position: relative;
     height: 611px;
@@ -141,29 +116,12 @@ only screen and (min-resolution: 144dpi) {
     right: 0;
     top: 0;
     height: 612px;
-    background-image: url(../images/iPhone-12-pro.webp);
+    background-image: image-set("../images/iPhone-12-pro.webp" 1x, "../images/iPhone-12-pro@2.webp" 2x, "../images/iPhone-12-pro@3.webp" 3x);
     background-repeat: no-repeat;
     background-size: 220px 444px;
     background-position: center right;
 }
-@media  only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min-resolution: 1.5dppx),
-only screen and (min-resolution: 144dpi) {
-    .home__page__application__wrap__iPhone {
-        background-image: url(../images/iPhone-12-pro@2.webp);
-    }
-}
 .no-webp.home__page__application__wrap__iPhone {
-    background-image: url(../images/iPhone-12-pro.png);
+    background-image: image-set("../images/iPhone-12-pro.png" 1x, "../images/iPhone-12-pro@2.png" 2x, "../images/iPhone-12-pro@3.png" 3x);
 }
-@media  only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min-resolution: 1.5dppx),
-only screen and (min-resolution: 144dpi) {
-    .no-webp.home__page__application__wrap__iPhone {
-        background-image: url(../images/iPhone-12-pro@2.png);
-    }
-}
+
