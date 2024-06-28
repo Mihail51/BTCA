@@ -38,7 +38,7 @@
 }
 .ready__subtitle {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 178%;
     text-align: center;
     color: var(--white---white);
@@ -94,7 +94,7 @@
     background-position: bottom right;
 }
 .no-webp .ready__step_3 {
-    background-image: image-set("../images/step-3.png" 1x, "../images/step-3@2.webp" 2x, "../images/step-3@3.webp" 3x);
+    background-image: image-set("../images/step-3.png" 1x, "../images/step-3@2.png" 2x, "../images/step-3@3.png" 3x);
     background-repeat: no-repeat;
     background-size: 196px 180px;
     background-position: bottom right;  

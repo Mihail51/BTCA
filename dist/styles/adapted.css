@@ -406,6 +406,23 @@
     #side-menu:checked ~ .header__menu {
         left: 0;
     }
+    /* MAIN  */
+    .home__page__main {
+    position: relative;
+    width: 100%;
+    min-height: 1240px;
+    background: image-set("../images/main-bg-grad_tablet.webp" 1x, "../images/main-bg-grad_tablet@2.webp" 2x, "../images/main-bg-grad_tablet@3.webp 3x"), image-set("../images/main-bg-image_tablet.webp" 1x, "../images/main-bg-image_tablet@2.webp" 2x, "../images/main-bg-image_tablet@3.webp 3x");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    z-index: 0;
+}
+.no-webp .home__page__main {
+    background: image-set("../images/main-bg-grad_tablet.png" 1x, "../images/main-bg-grad_tablet@2.png" 2x, "../images/main-bg-grad_tablet@3.png" 3x), image-set("../images/main-bg-image_tablet.png" 1x, "../images/main-bg-image_tablet@2.png" 2x, "../images/main-bg-image_tablet@3.png" 3x);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+}
 
     .main__slider {
         margin-top: 200px;

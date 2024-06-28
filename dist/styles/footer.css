@@ -68,7 +68,7 @@
 .footer__item__description {
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 12px;
+    font-size: 1.2rem;
     line-height: 155%;
     color: var(--grey---text);
 }
@@ -106,7 +106,7 @@
 .footer__official li {
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 12px;
+    font-size: 1.2rem;
     line-height: 0%;
     color: var(--white---white);
 }

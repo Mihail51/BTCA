@@ -30,14 +30,14 @@
     position: relative;
     width: 100%;
     min-height: 1240px;
-    background: linear-gradient(359deg, #0c111c 0%, rgba(13, 25, 27, 0.4) 100%), image-set("../images/main-bg-image.webp" 1x, "../images/main-bg-image@2.webp" 2x, "../images/main-bg-image@3.webp 3x");
+    background: image-set("../images/main-bg-grad.webp" 1x, "../images/main-bg-grad@2.webp" 2x, "../images/main-bg-grad@3.webp 3x"), image-set("../images/main-bg-image.webp" 1x, "../images/main-bg-image@2.webp" 2x, "../images/main-bg-image@3.webp 3x");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top center;
     z-index: 0;
 }
 .no-webp .home__page__main {
-    background: linear-gradient(359deg, #0c111c 0%, rgba(13, 25, 27, 0.4) 100%), image-set("../images/main-bg-image.png" 1x, "../images/main-bg-image@2.png" 2x, "../images/main-bg-image@3.png" 3x) url("../images/main-bg-image.png");
+    background: image-set("../images/main-bg-grad.png" 1x, "../images/main-bg-grad@2.png" 2x, "../images/main-bg-grad@3.png" 3x), image-set("../images/main-bg-image.png" 1x, "../images/main-bg-image@2.png" 2x, "../images/main-bg-image@3.png" 3x);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top center;

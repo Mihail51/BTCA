@@ -12,7 +12,7 @@
     left: -34px;
     font-family: var(--font4);
     font-weight: 700;
-    font-size: 180px;
+    font-size: 18rem;
     line-height: 109%;
     background: linear-gradient(138deg, #fff 0%, rgba(176, 250, 255, 0) 100%);
     background-clip: text;
@@ -36,7 +36,7 @@
     margin-bottom: 28px;
     font-family: var(--second-family);
     font-weight: 700;
-    font-size: 42px;
+    font-size: 4.2rem;
     line-height: 102%;
     background: linear-gradient(138deg, #fff 0%, rgba(176, 250, 255, 0) 100%);
     background-clip: text;
@@ -46,7 +46,7 @@
 .parters__call {
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 178%;
     color: var(--white---white);
     opacity: 0.8;
@@ -86,7 +86,7 @@
     align-items: center;
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 12px;
+    font-size: 1.2rem;
     line-height: 113%;
     color: var(--white---white);
     cursor: pointer;
@@ -96,7 +96,7 @@
     margin: 0;
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 178%;
     color: var(--white---white);
     opacity: 0.8;
