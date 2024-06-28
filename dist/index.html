@@ -295,7 +295,14 @@
                     </div>
                 </div>
                 <div class="macbook page__application__macbook home__page__application__macbook">
+                    <!--1x: 620px; 2x: 1240px; 3x: 1860px-->
+                    <!--tablet 1x: 485px; 2x: 970px; 3x: 1455px-->
+                    <!--mobile 1x: 314px; 2x: 628px; 3x: 942px-->
                     <picture class="image macbook__image page__application__macbook__image">
+                        <source (max-width: 360px) type="image/webp" srcset="./images/screen-wrap_mobile.webp 1x, ./images/screen-wrap_mobile@2.webp 2x, ./images/screen-wrap_mobile@3.webp 3x">
+                        <source (max-width: 360px) type="image/png" srcset="./images/screen-wrap_mobile.png 1x, ./images/screen-wrap_mobile@2.png 2x, ./images/screen-wrap_mobile@3.png 3x">
+                        <source (max-width: 768px) type="image/webp" srcset="./images/screen-wrap_tablet.webp 1x, ./images/screen-wrap_tablet@2.webp 2x, ./images/screen-wrap_tablet@3.webp 3x">
+                        <source (max-width: 768px) type="image/png" srcset="./images/screen-wrap_tablet.png 1x, ./images/screen-wrap_tablet@2.png 2x, ./images/screen-wrap_tablet@3.png 3x">
                         <source type="image/webp" srcset="./images/screen-wrap.webp 1x, ./images/screen-wrap@2.webp 2x, ./images/screen-wrap@3.webp 3x">
                         <img width="620" height="387" src="./images/screen-wrap.png" srcset="./images/screen-wrap@2.png 2x, ./images/screen-wrap@3.png 3x" alt="">
                     </picture>
