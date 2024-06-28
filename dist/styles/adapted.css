@@ -413,14 +413,14 @@
     min-height: 1240px;
     background: image-set("../images/main-bg-grad_tablet.webp" 1x, "../images/main-bg-grad_tablet@2.webp" 2x, "../images/main-bg-grad_tablet@3.webp 3x"), image-set("../images/main-bg-image_tablet.webp" 1x, "../images/main-bg-image_tablet@2.webp" 2x, "../images/main-bg-image_tablet@3.webp 3x");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: top center;
     z-index: 0;
 }
 .no-webp .home__page__main {
     background: image-set("../images/main-bg-grad_tablet.png" 1x, "../images/main-bg-grad_tablet@2.png" 2x, "../images/main-bg-grad_tablet@3.png" 3x), image-set("../images/main-bg-image_tablet.png" 1x, "../images/main-bg-image_tablet@2.png" 2x, "../images/main-bg-image_tablet@3.png" 3x);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: top center;
 }
 
@@ -796,6 +796,23 @@
         -ms-transform: translateY(3px);
         -o-transform: translateY(3px);
     }
+    /* MAIN  */
+    .home__page__main {
+    position: relative;
+    width: 100%;
+    min-height: 1240px;
+    background: image-set("../images/main-bg-grad_mobile.webp" 1x, "../images/main-bg-grad_mobile@2.webp" 2x, "../images/main-bg-grad_mobile@3.webp 3x"), image-set("../images/main-bg-image_mobile.webp" 1x, "../images/main-bg-image_mobile@2.webp" 2x, "../images/main-bg-image_mobile@3.webp 3x");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    z-index: 0;
+}
+.no-webp .home__page__main {
+    background: image-set("../images/main-bg-grad_mobile.png" 1x, "../images/main-bg-grad_mobile@2.png" 2x, "../images/main-bg-grad_mobile@3.png" 3x), image-set("../images/main-bg-image_mobile.png" 1x, "../images/main-bg-image_mobile@2.png" 2x, "../images/main-bg-image_mobile@3.png" 3x);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
     .background-text {
         font-size: 57px;
     }

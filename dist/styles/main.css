@@ -32,14 +32,14 @@
     min-height: 1240px;
     background: image-set("../images/main-bg-grad.webp" 1x, "../images/main-bg-grad@2.webp" 2x, "../images/main-bg-grad@3.webp 3x"), image-set("../images/main-bg-image.webp" 1x, "../images/main-bg-image@2.webp" 2x, "../images/main-bg-image@3.webp 3x");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: top center;
     z-index: 0;
 }
 .no-webp .home__page__main {
     background: image-set("../images/main-bg-grad.png" 1x, "../images/main-bg-grad@2.png" 2x, "../images/main-bg-grad@3.png" 3x), image-set("../images/main-bg-image.png" 1x, "../images/main-bg-image@2.png" 2x, "../images/main-bg-image@3.png" 3x);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: top center;
 }
 .home__page__main__wrap {
