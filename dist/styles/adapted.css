@@ -243,12 +243,10 @@
     .home__page__ready__wrap {
         height: 1220px;
     }
- /*   .ready__steps {
-        width: 100%;
-        height: 515px;
-        grid-template-columns: repeat(2, 1fr);
+    .ready__steps {
+        margin: 20px auto;
     }
-    .ready__step {
+/*    .ready__step {
         width: 100%;
         height: 248px;
     }
@@ -609,6 +607,42 @@
         width: 100%;
         justify-self: center;
     }
+    .ready__step_1 {
+    background-image: image-set("../images/step-1_tablet.webp" 1x, "../images/step-1_tablet@2.webp" 2x, "../images/step-1_tablet@3.webp" 3x);
+    background-repeat: no-repeat;
+    background-size: 101px 160px;
+    background-position: bottom right;
+}
+.no-webp .ready__step_1 {
+    background-image: image-set("../images/step-1_tablet.png" 1x, "../images/step-1_tablet@2.png" 2x, "../images/step-1_tablet@3.png" 3x);
+    background-repeat: no-repeat;
+    background-size: 101px 160px;
+    background-position: bottom right;  
+}
+.ready__step_2 {
+    background-image: image-set("../images/step-2_tablet.webp" 1x, "../images/step-2_tablet@2.webp" 2x, "../images/step-2_tablet@3.webp" 3x);
+    background-repeat: no-repeat;
+    background-size: 222px 131px;
+    background-position: bottom right;
+}
+.no-webp .ready__step_2 {
+    background-image: image-set("../images/step-2_tablet.png" 1x, "../images/step-2_tablet@2.png" 2x, "../images/step-2_tablet@3.png" 3x);
+    background-repeat: no-repeat;
+    background-size: 222px 131px;
+    background-position: bottom right;  
+}
+.ready__step_3 {
+    background-image: image-set("../images/step-3_tablet.webp" 1x, "../images/step-3_tablet@2.webp" 2x, "../images/step-3_tablet@3.webp" 3x);
+    background-repeat: no-repeat;
+    background-size: 164px 150px;
+    background-position: bottom right;
+}
+.no-webp .ready__step_3 {
+    background-image: image-set("../images/step-3_tablet.png" 1x, "../images/step-3_tablet@2.png" 2x, "../images/step-3_tablet@3.png" 3x);
+    background-repeat: no-repeat;
+    background-size: 164px 150px;
+    background-position: bottom right;  
+}
     .ready__banner {
         height: auto;
     }
