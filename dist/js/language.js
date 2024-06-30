@@ -5,7 +5,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   // Установка английского языка как языка по умолчанию
   const defaultLanguage = 'USA';
-  const defaultFlag = './images/ic_baseline-language.svg'; // Путь к изображению флага
+  const defaultFlag = './images/united-states.svg'; // Путь к изображению флага
   const languageSpan = document.getElementById('selected-language');
   const flagImg = document.getElementById('selected-flag');
 
@@ -34,9 +34,9 @@ function updateCryptoPrice(language) {
   };
 
   var currencySymbols = {
-    "Eng": "./images/icon-dollar-vector.svg",
-    "Рус": "./images/icon-dollar-vector.svg",
-    "USA": "./images/icon-dollar-vector.svg"
+    "Eng": "./images/british-pound.svg",
+    "Рус": "./images/ruble.svg",
+    "USA": "./images/coin.svg"
     // Добавьте пути к изображениям для других языков
   };
 
