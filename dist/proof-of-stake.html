@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proof of Stake</title>
+    <link rel="stylesheet" href="../dist/styles/normalize.css">
+    <link rel="stylesheet" href="../dist/styles/style.css">
+    <link rel="stylesheet" href="../dist/styles/adapted.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body class="page home__page">
+    <!--Header-->
+    <header class="header page__header">
+        <div class="container header__container">
+            <div class="wrap header__wrap">
+                <nav class="navigation header__navigation">
+                    <div class="logo header__logo">
+                        <a href="#" class="link logo__link header__logo__link">
+                            <img width="16.4" height="22.73" src="./images/main-logo-vector.svg" alt="">
+                        </a>
+                    </div>
+                    <!-- Hamburger icon -->
+                    <input type="checkbox" name="" id="side-menu" class="side-menu visually-hidden">
+                    <label for="side-menu" class="hamb">
+                        <span class="hamb-line"></span>
+                        <span class="hamb-line"></span>
+                        <span class="hamb-line"></span>
+                    </label>
+                    <!-- END OF Hamburger icon -->
+                    <ul class="menu header__menu list">
+                        <li class="item header__menu__item"><a href="#">Функции</a></li>
+                        <li class="item header__menu__item"><a href="#">Кошельки</a></li>
+                        <li class="item header__menu__item"><a href="#">Участие</a></li>
+                        <li class="item header__menu__item"><a href="#">Ресурсы</a></li>
+                        <li class="item header__menu__item"><a href="#">Новости</a></li>
+                        <li class="item header__menu__item"><a href="#">О BTCA</a></li>
+                    </ul>
+                </nav>
+                <div class="buttons header__buttons">
+                    <div id="language-dropdown" class="button header__button header__button_1">
+                        <img width="17" height="18" id="selected-flag" src="./images/ic_baseline-language.svg" alt="Flag">
+                        <span id="selected-language"></span>
+                        <div class="dropdown-content">
+                            <!-- Добавьте сюда другие страны -->
+                            <div data-language="Eng" data-flag="./images/united-kingdom.svg">Eng</div>
+                            <div data-language="Рус" data-flag="./images/russia.svg">Рус</div>
+                            <div data-language="USA" data-flag="./images/united-states.svg">USA</div>
+                            <!-- ... -->
+                        </div>
+                    </div>
+                    <div id="crypto-price" class="button header__button header__button_2">
+                        <div class="currency-icon header__currency-icon">
+                            <img width="15" height="15" id="currency-symbol" src="./images/icon-dollar-vector.svg" alt="Currency Symbol">
+                        </div>
+                        <span id="crypto-value">10.834</span>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </header>
+    <!--End of header-->
+    <!--Main-->
+    <main class="main page__main home__page__main proof__of__stake__main">
+        <div class="gradient home__page__gradient proof__of__stake__gradient"></div>
+        <div class="container main__container home__page__main__contaner">
+            <div class="wrap main__wrap home__page__main__wrap">
+                <div class="inner main__inner home__page__main__inner proof__of__stake__main__inner">
+                    <p class="background-text proof__of__stake__background-text">Increase</p>
+                    <div class="heading main__heading home__page__main__heading proof__of__stake__main__heading">
+                        <h1 class="title main__title home__page__main__title proof__of__stake__main__title">Proof of Stake</h1>
+                        <p class="subtitle main__subtitle home__page__main__subtitle proof__of__stake__main__subtitle">Получайте вознаграждения за безопасность сети BTCA, просто храня монеты в своем кошельке.</p>
+                    </div>
+                    <picture class="image main__image home__page__main__image">
+                        <source type="image/webp" srcset="./images/proof-main-image.webp 1x, ./images/proof-main-image@2.webp 2x, ./images/proof-main-image@3.webp 3x">
+                        <img width="621" height="484" src="./images/proof-main-image.png" srcset="./images/proof-main-image@2.png 2x, ./images/proof-main-image@3.png 3x" alt="">
+                    </picture>
+                </div>
+                <ul class="list conditions proof__of__stake__conditions">
+                    <li class="item condition proof__of__stake__condition proof__of__stake__condition_1">
+                        <h2>Получить больше <br> Владея малым</h2>
+                        <p>Независимо от того, являетесь ли вы разработчиком, мерчантом, конечным пользователем или покупателем окон, мы приветствуем вас в сообществе BTCA.</p>
+                    </li>
+                    <li class="item condition proof__of__stake__condition proof__of__stake__condition_2">
+                        <div class="icon proof__of__stake__condition_icon">
+                            <img width="24" height="24" src="./images/list-success.svg" alt="">
+                        </div>
+                        <h4>Согласованное Время Блока</h4>
+                        <p>Фиксированный интервал между блоками составляет 60 секунд. Протокол времени 2-ой версии значительно сокращает разброс фактического интервала между блоками.</p>
+                    </li>
+                    <li class="item condition proof__of__stake__condition proof__of__stake__condition_3">
+                        <div class="icon proof__of__stake__condition_icon">
+                            <img width="24" height="24" src="./images/protect.svg" alt="">
+                        </div>
+                        <h4>Безопасная Сеть</h4>
+                        <p>Распределенная сеть отдельных узлов обеспечивает проверку каждой транзакции и блока, добавляемого в блокчейн, гарантируя, что блоки и транзакции действительны.</p>
+                    </li>
+                    <li class="item condition proof__of__stake__condition proof__of__stake__condition_4">
+                        <div class="icon proof__of__stake__condition_icon">
+                            <img width="24" height="24" src="./images/universal.svg" alt="">
+                        </div>
+                        <h4>Меньшее потребление энергии</h4>
+                        <p>Фиксированный интервал между блоками составляет 60 секунд. Протокол времени 2-ой версии значительно сокращает разброс фактического интервала между блоками.</p>
+                    </li>
+                    <li class="item condition proof__of__stake__condition proof__of__stake__condition_5">
+                        <div class="icon proof__of__stake__condition_icon">
+                            <img width="24" height="24" src="./images/data-four.svg" alt="">
+                        </div>
+                        <h4>Честный Стекинг</h4>
+                        <p>У каждого UTXO есть шанс выиграть ставку с линейным снижением сложности в зависимости от ценности UTXO. </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <!--End of main-->
+    <!--BANNER-->
+    <div class="banner ready__banner proof__banner">
+        <div class="bg banner__bg ready__banner__bg"></div>
+        <h2 class="title ready__title ready__banner__title">Никогда не пропускайте обновления</h2>
+        <p class="subtitle ready__subtitle ready__banner__subtitle">Подпишитесь на информационный бюллетень и будьте первым, кто получит новейшие оповещения, объявления и обновления о разработках BTCA.</p>
+        <form action="" class="form ready__form ready__banner__form">
+            <input class="email-input" type="email" name="email" id="email" placeholder="Ваш e-mail" required>
+            <input type="submit" value="Подписаться">
+        </form>
+    </div>
+    <!--TND OF BANNER-->
+    <!--FOOTER-->
+    <footer class="footer page__footer">
+        <div class="container footer__container">
+            <div class="wrap footer__wrap">
+                <ul class="list footer__list">
+                    <li class="item footer__list__item footer__list__item_1">
+                        <h4>BTCA</h4>
+                        <ul class="items footer__items footer__items_1">
+                            <li class="item footer__item footer__item_1"><a href="#">Продвинутый Proof of Stake</a></li>
+                            <li class="item footer__item footer__item_2"><a href="#">Холодный стекинг</a></li>
+                            <li class="item footer__item footer__item_3"><a href="#">Конфиденциальность Shield</a></li>
+                            <li class="item footer__item footer__item_4"><a href="#">Загрузки</a></li>
+                            <li class="item footer__item footer__item_5"><a href="#">Мастерноды</a></li>
+                            <li class="item footer__item footer__item_6"><a href="#">Мерчанты</a></li>
+                            <li class="item footer__item footer__item_7"><a href="#">Биржи</a></li>
+                        </ul>
+                    </li>
+                    <li class="item footer__list__item footer__list__item_2">
+                        <h4>Ресурсы</h4>
+                        <ul class="items footer__items footer__items_2">
+                            <li class="item footer__item footer__item_1"><a href="#">Новости</a></li>
+                            <li class="item footer__item footer__item_2"><a href="#">Десктоп Приложение</a></li>
+                            <li class="item footer__item footer__item_3"><a href="#">Мобильное Приложение</a></li>
+                        </ul>
+                    </li>
+                    <li class="item footer__list__item footer__list__item_3">
+                        <h4>Саппорт</h4>
+                        <ul class="items footer__items footer__items_3">
+                            <li class="item footer__item footer__item_1"><a href="#">FAQ</a></li>
+                            <li class="item footer__item footer__item_2"><a href="#">Саппорт</a></li>
+                            <li class="item footer__item footer__item_3"><a href="#">Комьюнити</a></li>
+                            <li class="item footer__item footer__item_4"><a href="#">Почему BTCA</a></li>
+                            <li class="item footer__item footer__item_5"><a href="#">O BTCA</a></li>
+                        </ul>
+                    </li>
+                    <li class="item footer__list__item footer__list__item_4">
+                        <h4>Документация</h4>
+                        <ul class="items footer__items footer__items_4">
+                            <li class="item footer__item footer__item_1"><a href="#">Документы</a></li>
+                            <li class="item footer__item footer__item_2"><a href="#">Terms of Use</a></li>
+                            <li class="item footer__item footer__item_3"><a href="#">Privacy Policy</a></li>
+                            <li class="item footer__item footer__item_4"><a href="#">Legal Notices</a></li>
+                        </ul>
+                    </li>
+                    <li class="item footer__list__item footer__list__item_5">
+                        <ul class="footer__items footer__items_5">
+                            <li class="item footer__item footer__item__wallets">
+                                <ul class="wallets application__wallets footer__application__wallets">
+                                    <li class="wallet application__wallet fpplication__wallets_1"><a href="#" class="link application__link"><img width="18" height="21" src="./images/android-logo.svg" alt=""></a></li>
+                                    <li class="wallet application__wallet fpplication__wallets_2"><a href="#" class="link application__link"><img width="16" height="20" src="./images/apple.svg" alt=""></a></li>
+                                    <li class="wallet application__wallet fpplication__wallets_3"><a href="#" class="link application__link"><img width="19" height="20" src="./images/codicon_terminal-linux.svg" alt=""></a></li>
+                                    <li class="wallet application__wallet fpplication__wallets_4"><a href="#" class="link application__link"><img width="21" height="21" src="./images/bx_bxl-windows.svg" alt=""></a></li>
+                                </ul>
+                            </li>
+                            <li class="item footer__item footer__item__description">BTCA - это децентрализованная, одноранговая валюта с открытым исходным кодом, отличающаяся расширенными функциями конфиденциальности</li>
+                            <li class="item footer__item footer__item__socials">
+                                <ul class="socials footer__socials">
+                                    <li class="social footer__social footer__social_1"><a href="#" class="link social__link"><img width="15" height="26" src="./images/fb.svg" alt=""></a></li>
+                                    <li class="social footer__social footer__social_2"><a href="#" class="link social__link"><img width="16" height="14" src="./images/twit.svg" alt=""></a></li>
+                                    <li class="social footer__social footer__social_3"><a href="#" class="link social__link"><img width="18" height="18" src="./images/inst.svg" alt=""></a></li>
+                                    <li class="social footer__social footer__social_4"><a href="#" class="link social__link"><img width="18" height="13" src="./images/youtube.svg" alt=""></a></li>
+                                    <li class="social footer__social footer__social_5"><a href="#" class="link social__link"><img width="24" height="24" src="./images/git.svg" alt=""></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="official footer__official">
+                    <li class="item copyright footer__copyright">&copy; 2019-2021 BTCA Community & BTCA Foundation</li>
+                    <li class="item created footer__created">Created by BTCA Community</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!--FOR LANGUAGE-->
+    <script src="./js/language.js"></script>
+
+    <!--FOR WEBP-->
+    <script src="../dist/js/modernizr-custom.min.js"></script>
+    <script src="../dist/js/modernizr-custom.min.js"></script>
+</body>
+</html>

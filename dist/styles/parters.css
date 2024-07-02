@@ -4,12 +4,9 @@
     z-index: 0;
 }
 .background-text {
-    width: 1038px;
-    height: 196px;
+     height: 196px;
     margin: 0;
     position: absolute;
-    top: 31px;
-    left: -34px;
     font-family: var(--font4);
     font-weight: 700;
     font-size: 18rem;
@@ -19,6 +16,11 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     opacity: 0.2;
+}
+.parters__background-text {
+    width: 1038px;
+    top: 31px;
+    left: -34px;
 }
 .home__page__parters__wrap {
     height: 555px;
