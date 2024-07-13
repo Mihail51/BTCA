@@ -1,0 +1,92 @@
+
+.proof__of__stake__faq__wrap {
+    width: 100%;
+    min-height: 632px;
+    flex-direction: column;
+    background-image: image-set("../images/question-mark.webp" 1x, "../images/question-mark@2.webp" 2x, "../images/question-mark@3.webp" 3x);
+    background-repeat: no-repeat;
+    background-size: 403px 556px;
+    background-position: right bottom;
+    mix-blend-mode: lighten;
+}
+.no-webp .proof__of__stake__faq__wrap {
+     background-image: image-set("../images/question-mark.png" 1x, "../images/question-mark@2.png" 2x, "../images/question-mark@3.png" 3x);
+    background-repeat: no-repeat;
+    background-size: 403px 556px;
+    background-position: right bottom;
+    mix-blend-mode: lighten;
+}
+.proof__of__stake__faq__caption {
+    width: 624px;
+    height: 43px;
+}
+.proof__of__stake__faq__caption h2 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 102%;
+    background: linear-gradient(138deg, #fff 0%, rgba(176, 250, 255, 0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align-last: left;
+}
+.proof__of__stake__faq__content {
+    width: 665px;
+    height: 479px;
+    padding: 22px 29px 50px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    backdrop-filter: blur(31px);
+    box-shadow: 0 4px 59px 0 rgba(0, 0, 0, 0.51);
+    background: rgba(21, 24, 34, 0.3);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+.proof__of__stake__faq__content hr {
+    width: 607px;
+    height: 0px;
+    margin-top: 8px;
+    border: 1px solid var(--white-white-15);
+}
+details summary {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 250%;
+    color: var(--white---white);
+}
+details[open] summary {
+    font-weight: 700;
+    color: var(--green---second);
+}
+details {
+    display: block;
+    width: 379px;
+    height: 40px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 179%;
+    color: var(--white---white);
+    opacity: 0.8;
+}
+details[open] {
+    width: 597px;
+    height: 203px;
+    overflow-y: auto;
+}
+/* Убираем стандартный маркер Chrome */
+details summary::-webkit-details-marker {
+  display: none
+}
+/* Убираем стандартный маркер Firefox */
+details > summary {
+  list-style: none;
+}
